@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RC 💅🏻 — The Girly Pop Department</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&family=Pacifico&display=swap');
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+ margin:0;color:#4b263d;font-family:'DM Sans',sans-serif;
+ background:#fff5fb;
+ background-image:radial-gradient(#f4c5dd 1.2px,transparent 1.2px);
+ background-size:22px 22px;
+}
+nav{
+ position:fixed;top:0;left:0;right:0;z-index:20;
+ display:flex;justify-content:space-between;align-items:center;
+ padding:14px 22px;background:rgba(255,245,251,.88);
+ backdrop-filter:blur(14px);border-bottom:2px solid #f5d5e7;
+}
+.logo{font-family:Pacifico,cursive;font-size:24px;color:#d94f91}
+nav a{color:#8d5474;text-decoration:none;margin-left:15px;font-size:13px;font-weight:700}
+.hero{
+ min-height:100vh;display:flex;align-items:center;justify-content:center;
+ text-align:center;padding:110px 20px 70px;
+ background:
+ radial-gradient(circle at 15% 25%,#ffd5e9 0 12%,transparent 13%),
+ radial-gradient(circle at 85% 75%,#ffe5f2 0 15%,transparent 16%),
+ linear-gradient(135deg,#fff7fb,#ffe8f3);
+}
+.hero-inner{max-width:850px}
+.kicker{
+ display:inline-block;padding:8px 14px;border-radius:99px;background:#fff;
+ border:2px solid #f2bfd8;color:#c23d7c;font-weight:800;font-size:12px;
+ box-shadow:0 8px 20px #e8b7ce66;
+}
+h1{
+ font-family:Pacifico,cursive;font-size:clamp(62px,14vw,135px);
+ line-height:1;margin:18px 0 8px;color:#d83e88;
+ text-shadow:5px 5px 0 #ffd0e5;
+}
+.hero h3{font-size:clamp(20px,4vw,31px);margin:0;color:#633650}
+.hero p{max-width:650px;margin:22px auto;color:#8d617b;font-size:17px;line-height:1.7}
+.btn{
+ display:inline-block;padding:14px 21px;border-radius:999px;
+ background:#e74b96;color:#fff;text-decoration:none;font-weight:800;
+ border:0;cursor:pointer;box-shadow:0 8px 20px #d94f9144;
+}
+.btn.secondary{background:#fff;color:#c43c7c;border:2px solid #f0b7d3}
+section{max-width:1050px;margin:auto;padding:90px 20px}
+h2{font-family:Pacifico,cursive;font-size:42px;color:#d54288;margin:0 0 8px}
+.sub{color:#966b83;margin:0 0 28px}
+.card{
+ background:#fff;border:2px solid #f3d2e2;border-radius:25px;padding:24px;
+ box-shadow:0 12px 30px #d99bbd24;
+}
+.intro{font-size:18px;line-height:1.8}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.stat{text-align:center}
+.stat .emoji{font-size:31px}.stat b{display:block;font-size:31px;color:#d44186;margin-top:5px}
+.stat span{font-size:12px;color:#956d83}
+.gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:17px}
+.gallery img{
+ width:100%;height:480px;object-fit:cover;border-radius:24px;
+ border:4px solid white;box-shadow:0 10px 25px #cf86ac33;
+ transition:.25s;
+}
+.gallery img:hover{transform:rotate(-1deg) scale(1.01)}
+.jokes{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.joke{min-height:170px;position:relative}
+.joke .num{font-size:11px;color:#d34a89;font-weight:800}
+.joke p{font-size:20px;font-weight:700;line-height:1.45;margin-bottom:0}
+.roast{background:#fff0f7;border:2px dashed #e5a9c8}
+.meter{height:13px;background:#f7dbe9;border-radius:99px;overflow:hidden;margin:8px 0 19px}
+.meter i{display:block;height:100%;width:var(--w);background:linear-gradient(90deg,#f58bbd,#d63d88);border-radius:99px}
+.secret{
+ text-align:center;padding:55px 22px;border-radius:30px;
+ background:linear-gradient(135deg,#ffe0ef,#fff);
+ border:2px solid #f2bdd6;
+}
+#secretText{min-height:35px;margin:22px 0;color:#bd3977;font-size:19px;font-weight:800}
+footer{text-align:center;padding:55px 20px;color:#a27c91}
+.sparkle{font-size:28px;animation:float 2s ease-in-out infinite alternate}
+@keyframes float{to{transform:translateY(-7px) rotate(5deg)}}
+@media(max-width:700px){
+ nav a{display:none}.stats,.gallery,.jokes{grid-template-columns:1fr}
+ .gallery img{height:450px}h2{font-size:36px}
+}
+</style>
+</head>
+<body>
+
+<nav>
+ <div class="logo">RC 💅🏻</div>
+ <div>
+  <a href="#about">RC lore</a><a href="#stats">Stats</a>
+  <a href="#gallery">Pics</a><a href="#secret">Secret</a>
+ </div>
+</nav>
+
+<header class="hero">
+ <div class="hero-inner">
+  <div class="kicker">💗 WELCOME TO THE OFFICIAL RC FAN CLUB (UNOFFICIAL)</div>
+  <div class="sparkle">✨</div>
+  <h1>RC</h1>
+  <h3>Pretty. Hungry. Hasi ki dukaan. 💅🏻</h3>
+  <p>
+   Ek aisi ladki jisko khana dikhe toh mood automatically 100% ho jaata hai,
+   camera dikhe toh modelling mode ON, aur koi random cheez ho toh hasi already loading.
+  </p>
+  <a class="btn" href="#about">Enter the RC Universe 💗</a>
+ </div>
+</header>
+
+<section id="about">
+ <h2>Okayyy, RC kaun hai? 🎀</h2>
+ <p class="sub">Ek highly scientific investigation ke baad ye information mili hai:</p>
+ <div class="card intro">
+  <p>
+   RC is basically <b>main character + food critic + professional laugher</b> ka combo.
+   Isko apni tareef sunna pasand hai, khana pasand hai, photos lena pasand hai,
+   aur sabse zyada... <b>hasna pasand hai.</b>
+  </p>
+  <p>
+   Matlab koi serious baat chal rahi ho aur RC ko kuch funny mil gaya —
+   bas bhai, meeting officially khatam. 😂
+  </p>
+  <p>
+   Aur confidence? <b>100/10.</b> Mirror ke saamne validation ki zarurat nahi,
+   mirror ko hi validation mil jaata hai. 💅🏻
+  </p>
+ </div>
+</section>
+
+<section id="stats">
+ <h2>RC ki Scientific Report 📊</h2>
+ <p class="sub">Research conducted by: me. Sources: trust me bro.</p>
+ <div class="stats">
+  <div class="card stat"><div class="emoji">😂</div><b>99.9%</b><span>Random hasi</span></div>
+  <div class="card stat"><div class="emoji">🍟</div><b>∞%</b><span>Food ke liye pyaar</span></div>
+  <div class="card stat"><div class="emoji">💅🏻</div><b>110%</b><span>Main-character energy</span></div>
+  <div class="card stat"><div class="emoji">🎀</div><b>100%</b><span>Girly-pop certified</span></div>
+ </div>
+ <br>
+ <div class="card">
+  <p><b>Random cheez pe hasne ka chance</b></p>
+  <div class="meter"><i style="--w:99%"></i></div>
+  <p><b>“Mujhe pata hai main pretty hoon” confidence</b></p>
+  <div class="meter"><i style="--w:100%"></i></div>
+  <p><b>Food dekhte hi happiness</b></p>
+  <div class="meter"><i style="--w:98%"></i></div>
+  <p><b>“Bas ek bite lungi” actually one bite</b></p>
+  <div class="meter"><i style="--w:4%"></i></div>
+ </div>
+</section>
+
+<section id="gallery">
+ <h2>RC being RC 📸</h2>
+ <p class="sub">Evidence jo court mein bhi reject nahi hoga.</p>
+ <div class="gallery">
+  <img src="aarshi1.jpeg" alt="RC">
+  <img src="aarshi2.jpeg" alt="RC">
+  <img src="aarshi3.jpeg" alt="RC">
+  <img src="aarshi4.jpeg" alt="RC">
+ </div>
+</section>
+
+<section>
+ <h2>RC's Current Situation 🎀</h2>
+ <p class="sub">Important updates from the RC headquarters.</p>
+ <div class="jokes">
+  <div class="card joke">
+   <span class="num">MISSION #01 📚</span>
+   <p>RC ko ab padhna bhi hai 😭<br>Sirf food, photos aur hasi se degree nahi milegi madam.</p>
+  </div>
+  <div class="card joke">
+   <span class="num">MISSION #02 🍟</span>
+   <p>Study plan: “Aaj pakka padhungi.”<br>Also RC 10 minutes later: “Kuch khaate hain?”</p>
+  </div>
+  <div class="card joke">
+   <span class="num">BREAKING NEWS 🚨</span>
+   <p>Bhavya ji, sambhal jao... RC Jiya ko pakka replace karne wali hai. 😂</p>
+  </div>
+  <div class="card joke">
+   <span class="num">OPERATION REPLACE 👑</span>
+   <p>Jiya ko replace karne ka mission officially under process. Bhavya ji ko competition mil gaya. 💅🏻</p>
+  </div>
+ </div>
+</section>
+
+<section>
+ <div class="card roast">
+  <h2>Important Public Notice 🚨</h2>
+  <p class="intro">
+   Agar RC ko bhook lagi hai, toh please argument mat karo.
+   <b>Food provide karo.</b> Ye public safety ke liye zaroori hai.
+  </p>
+  <p>
+   Also, agar RC kisi baat pe has rahi hai aur tumhe joke samajh nahi aaya,
+   don't worry. <b>RC ko bhi nahi pata.</b> 😂
+  </p>
+ </div>
+</section>
+
+<section>
+ <div class="card">
+  <h2>RC ko padhna hai. 📚😭</h2>
+  <p class="intro">
+   Attention RC: <b>books khol lo.</b> Instagram, food aur random hasi
+   thodi der baad bhi ho sakti hai. Pehle thoda padhai, phir full bakchodi. 🎀
+  </p>
+  <p>
+   <b>Official study schedule:</b> 10% padhai · 90% “bas 5 minute break” ·
+   100% food break. 😂
+  </p>
+ </div>
+</section>
+
+<section id="secret">
+ <div class="secret">
+  <h2>Ek secret button hai... 👀</h2>
+  <p class="sub">RC ne bola tha isse press mat karna. Toh obviously press karo.</p>
+  <button class="btn secondary" onclick="reveal()">PRESS KARU? 💗</button>
+  <div id="secretText"></div>
+ </div>
+</section>
+
+<footer>
+ RC™ · Officially Girly Pop · Professionally Hungry · Permanently Laughing 🎀<br><br>
+ Made with friendship, bakchodi, food jokes & questionable science.
+</footer>
+
+<script>
+const messages=[
+ "🚨 RC ALERT: Itni hasi allowed nahi hai.",
+ "🍟 Emergency! RC ko food chahiye. Immediately.",
+ "💅🏻 Confidence level: 'Mujhe pata hai main achhi lag rahi hoon.'",
+ "😂 Joke kya tha? Kisi ko nahi pata. RC bas has rahi hai.",
+ "🎀 Congratulations! You have entered the RC universe. There is no escape.",
+ "👑 Main character detected. Background characters please move aside."
+];
+let n=0;
+function reveal(){
+ document.getElementById("secretText").textContent=messages[n++%messages.length];
+}
+</script>
+</body>
+</html>
